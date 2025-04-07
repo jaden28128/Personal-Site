@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f1e1;
+            color: #4f4a4a;
+            line-height: 1.6;
+            background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+            background-repeat: repeat;
+        }
+
+        header {
+            background-color: #5d4037;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3.2em;
+            margin-bottom: 10px;
+            font-family: 'Merriweather', serif;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        section {
+            margin: 40px auto;
+            width: 85%;
+            max-width: 1000px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            border-top: 4px solid #7e5c3c;
+        }
+
+        h2 {
+            font-size: 2.4em;
+            margin-bottom: 20px;
+            color: #3e2723;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        a {
+            color: #5d4037;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #7e5c3c;
+        }
+
+        img {
+            display: block;
+            margin: 25px auto;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border: 5px solid #7e5c3c;
+        }
+
+        .banner-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #3e2723;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.1em;
+        }
+
+        footer p {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jaden Mounkhaty</h1>
+        <p>Check out my personal website!</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Jaden Mounkhaty and I am a first year Computer Science student at Virginia Tech with a deep passion for technology and creativity. Currently, I’m pursuing a degree in Computer Science, where I’m fascinated by software development, algorithms, and problem-solving.
+        </p>
+        
+        <img class="banner-image" src="https://media.licdn.com/dms/image/v2/D4E16AQH9J-iDqmtklw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1694022249374?e=2147483647&v=beta&t=ZdiSrkizIRKd7ol8Uqr_bdPo_BmOxJAtF1nA_bVBC74" alt="College Campus Banner">
+
+        <p>
+            Since starting college, I've had the pleasure of being involved in multiple clubs, organizations, and participating in numerous events. When I’m not coding, I love to unwind by singing and dancing. These activities allow me to express my artistic side and provide a refreshing balance to my studies. Whether I’m belting out my favorite songs or learning new dance routines, I find joy in the rhythm and energy of music and movement. This creative outlet helps me stay energized and focused, keeping me motivated through my academic journey. I’m always looking for ways to combine my technical skills with my creative passions, whether it’s developing an app or participating in performance arts.
+        </p>
+        
+        <img src="data:image/jpeg;base64,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" alt="Your Name">
+        
+        <p>
+            Links to more information on specific terms/subjects:
+        </p>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Software_development" target="_blank">Software Development</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">Machine Learning</a></li>
+        </ul>
+    </section> 
+
+    <section>
+        <h2>Professional Experience</h2>
+        <p>Currently, I serve as an Undergraduate Researcher at Virginia Tech’s Department of Computer Science under Dr. Naren Ramakrishnan, where I’m building a mathematics problem-generating and solving LLM system using modern APIs and frameworks. Previously, at George Mason University, I worked as a Student Researcher under Professor Ales Psaker. There, I applied machine learning to model and visualize quantum mechanics and chaotic physical systems, successfully predicting chaotic function patterns up to two minutes in advance with 45% accuracy. I’ve also interned at Inspirit AI, where I developed a sentiment-based financial prediction model with 84% accuracy on NASDAQ and Forbes 500 stock trends, gaining hands-on experience with LLMs, BERT, transformers, and neural networks.</p>
+        <p>As a Programmer for First Robotics Team 2068, I developed backend software for autonomous robotics functions using Java and computer vision tools like PhotonVision. We placed in the top 17% of global teams and advanced to the 2024 FRC World Championship. Additionally, I led the design and machine learning development of Amplytics, a React and Flask web app predicting U.S. city electricity costs based on scraped and cleaned datasets. These experiences have not only strengthened my full-stack and AI programming skills but also shaped me into a well-rounded, detail-oriented problem solver committed to impactful innovation.</p>
+    </section>
+
+    <section>
+        <h2>Professional Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, Java, JavaScript, C++, HTML, CSS</li>
+            <li><strong>Frameworks:</strong> Tensorflow, Keras, PyTorch, scikit-learn, NumPy, Pandas, CUDA</li>
+            <li><strong>Technologies:</strong> Git, AWS (S3, EC2, RDS, SQS)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>My Resume</h2>
+        <p>You can download my professional resume here:</p>
+        <a href="https://docs.google.com/document/d/1M3oChzKVC5_Q7f2wtb-_-VBgCbtdIvcCk0zhIMJez5E/edit?usp=sharing" target="_blank" style="font-weight: bold;">Download Resume (PDF)</a>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email or check out my professional profiles below:</p>
+        <p><em>Email:</em> <a href="mailto:jadenmoun@vt.edu">jadenmoun@vt.edu</a></p>
+        <p><em>LinkedIn:</em> <a href="https://www.linkedin.com/in/jaden-mounkhaty-bb6521328" target="_blank">https://www.linkedin.com/in/jaden-mounkhaty-bb6521328</a></p>
+        <p><em>GitHub:</em> <a href="https://github.com/jaden28128" target="_blank">https://github.com/jaden28128</a></p>
+    </section>
+
+    <footer>
+        <p>Thanks for visiting my site! Let's connect and build something great.</p>
+    </footer>
+</body>
+</html>
